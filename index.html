@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bateria</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Bateria</h1>
+
+    <div class="keys">
+       
+        <div id="botaoq" data-key="keyq" onclick="tocar1(this)" class="key">Q</div>
+        <div id="botaow" data-key="keyw" onclick="tocar2(this)" class="key">W</div>
+        <div id="botaoe" data-key="keye" onclick="tocar3(this)" class="key">E</div>
+
+        <div id="botaoa" data-key="keya" onclick="tocar4(this)" class="key">A</div>
+        <div id="botaos" data-key="keys" onclick="tocar5(this)" class="key">S</div>
+        <div id="botaod" data-key="keyd" onclick="tocar6(this)" class="key">D</div>
+
+        <div id="botaoz" data-key="keyz" onclick="tocar7(this)" class="key">Z</div>
+        <div id="botaox" data-key="keyx" onclick="tocar8(this)" class="key">X</div>
+        <div id="botaoc" data-key="keyc" onclick="tocar9(this)" class="key">C</div>
+    </div>
+    
+
+    <footer>Criado por <a style="text-decoration: none ; color: white;" href="https://www.linkedin.com/in/alison-lima-aa3477179/">Alison Lima</a></footer>
+
+    <audio id="s_keyq" src="sounds/keyq.wav"></audio>
+    <audio id="s_keyw" src="sounds/keyw.wav"></audio>
+    <audio id="s_keye" src="sounds/keye.wav"></audio>
+    <audio id="s_keya" src="sounds/keya.wav"></audio>
+    <audio id="s_keys" src="sounds/keys.wav"></audio>
+    <audio id="s_keyd" src="sounds/keyd.wav"></audio>
+    <audio id="s_keyz" src="sounds/keyz.wav"></audio>
+    <audio id="s_keyx" src="sounds/keyx.wav"></audio>
+    <audio id="s_keyc" src="sounds/keyc.wav"></audio>
+    
+    <script src="teclado.js"></script>
+    <script src="script.js"></script>
+    <script src="composer.js"></script>
+</body>
+</html>
